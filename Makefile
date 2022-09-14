@@ -7,7 +7,8 @@ ZIP_FILES = mdns-repeater	\
 			README.txt		\
 			LICENSE.txt
 
-HGVERSION=$(shell hg parents --template "{latesttag}.{latesttagdistance}")
+#HGVERSION=$(shell hg parents --template "{latesttag}.{latesttagdistance}")
+HGVERSION=-0.0.1
 
 CFLAGS=-Wall
 
